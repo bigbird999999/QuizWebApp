@@ -1,0 +1,389 @@
+.homepage{
+  text-align: center;
+}
+.homepage button{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  transition: background-color 0.3s ease;
+  margin-top:5px;
+}
+
+.homepage button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
+}
+.login {
+  max-width: 400px;
+  margin-top:10%;
+  margin-left:30%;
+  margin-right:30%;
+  padding: 20px;
+ 
+  /*background-color: #f9f9f9*/
+}
+
+.login h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login form div {
+  margin-bottom: 15px;
+}
+
+.login form label {
+  font-weight: bold;
+}
+
+.login form input[type="text"],
+.login form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login form button[type="submit"],
+.login button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom:2%;
+}
+
+.adminMenu {
+  display: flex;
+  justify-content: flex-end; /* Align items to the end (right side) */
+  margin-top: 20px;
+}
+
+.adminMenu button {
+  margin-left: 10px; /* Add some spacing between buttons */
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.adminMenu button:hover {
+  background-color: #0056b3;
+}
+
+.adminMenu button:last-child {
+  margin-left: auto; /* Push the logout button to the right */
+}
+
+.login form button[type="submit"]:hover,
+.login button:hover {
+  background-color: #0056b3;
+}
+
+
+.AddQuestions {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.AddQuestions h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.AddQuestions form {
+  display: flex;
+  flex-direction: column;
+}
+
+.AddQuestions form div {
+  margin-bottom: 15px;
+}
+
+.AddQuestions form label {
+  font-weight: bold;
+}
+
+.AddQuestions form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.AddQuestions form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.AddQuestions form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.AddQuestions .successMessage {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #dff0d8;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+  border-radius: 4px;
+}
+.showQuestions {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.showQuestions h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333333;
+  text-align: center;
+}
+
+.showQuestions div {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.showQuestions div:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.showQuestions h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #555555;
+}
+
+.showQuestions h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #222222;
+}
+
+.showQuestions ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.showQuestions ul li {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333333;
+}
+
+.showQuestions p {
+  font-size: 16px
+}
+.deleteQuestions {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.deleteQuestions h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333333;
+  text-align: center;
+}
+
+.deleteQuestions form {
+  display: flex;
+  flex-direction: column;
+}
+
+.deleteQuestions label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555555;
+}
+
+.deleteQuestions input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.deleteQuestions button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.deleteQuestions button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.deleteQuestions .successMessage {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #dff0d8;
+  border: 1px solid #d0e9c6;
+  color: #3c763d;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.Questions {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Questions h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333333;
+  text-align: center;
+}
+
+.Questions div {
+  padding: 15px;
+  background-color: #f9f9f9;
+ 
+}
+
+.Questions h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #555555;
+}
+
+.Questions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Questions li {
+  margin-bottom: 10px;
+}
+
+.Questions button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Questions button:hover {
+  background-color: #45a049;
+}
+.result {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.result p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.result button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-right: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.result button:hover {
+  background-color: #45a049;
+}
+
+.result button:last-child {
+  background-color: #f44336;
+}
+
+.result button:last-child:hover {
+  background-color: #e53935;
+}
